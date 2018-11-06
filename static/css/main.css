@@ -488,11 +488,11 @@
     margin-top: 7px;
 }
 .liabilities ul{
-    width: 260px;
+    width: 265px;
     margin: 0 auto;
     margin-top: 20px;
 }
-.liabilities ul li p:nth-child(1){
+.liabilities ul li p:nth-child(2){
     height: 13px;
     font-family: STYuanti-TC-Regular;
     font-size: 13px;
@@ -504,7 +504,7 @@
     text-align: left;
     margin-bottom: 5px;
 }
-.liabilities ul li p:nth-child(2){
+.liabilities ul li p:nth-child(3){
 	height: 14px;
 	font-family: STYuanti-TC-Regular;
 	font-size: 14px;
@@ -515,17 +515,75 @@
     color: #ffffff;
     padding-left: 195px;
 }
+.liabilities ul li{
+    position: relative;
+    overflow: hidden;
+}
 .liabilities ul li:nth-child(1){
     height: 55px;
-    background: url(../images/11-9.png) 0px 25px no-repeat;
+    background: url(../images/y-1.png) 0px 25px no-repeat;
+}
+.firLoad{
+    width: 100%;
+    margin-left: 7px;
+    position: absolute;
+    top: 5px;
+    left: 0;
+    height: 55px;
+    background: url(../images/y-2.png) -120px 25px no-repeat;
+}
+.firLoad2{
+    width: 100%;
+    margin-left: 7px;
+    position: absolute;
+    top: 5px;
+    left: 0;
+    height: 55px;
+    background: url(../images/y-2.png) -104px 25px no-repeat;
 }
 .liabilities ul li:nth-child(2){
     height: 55px;
-    background: url(../images/11-8.png) 0px 25px no-repeat;
+    background: url(../images/g-1.png) 0px 25px no-repeat;
+}
+.secLoad{
+    width: 100%;
+    margin-left: 7px;
+    position: absolute;
+    top: 5px;
+    left: 0;
+    height: 55px;
+    background: url(../images/g-2.png) 0px 25px no-repeat;
+}
+.secLoad2{
+    width: 100%;
+    margin-left: 7px;
+    position: absolute;
+    top: 5px;
+    left: 0;
+    height: 55px;
+    background: url(../images/g-2.png) 0px 25px no-repeat;
 }
 .liabilities ul li:nth-child(3){
     height: 55px;
-    background: url(../images/11-7.png) 0px 25px no-repeat;
+    background: url(../images/b-1.png) 0px 25px no-repeat;
+}
+.thrLoad{
+    width: 100%;
+    margin-left: 7px;
+    position: absolute;
+    top: 5px;
+    left: 0;
+    height: 55px;
+    background: url(../images/b-2.png) -96px 25px no-repeat;
+}
+.thrLoad2{
+    width: 100%;
+    margin-left: 7px;
+    position: absolute;
+    top: 5px;
+    left: 0;
+    height: 55px;
+    background: url(../images/b-2.png) 0px 25px no-repeat;
 }
 .bot{
     width: 400px;

@@ -227,6 +227,15 @@ let tool = {
             tool.rightText1.html(list[index].rightList[0]);
             tool.rightText2.html(list[index].rightList[1]);
             tool.rightText3.html(list[index].rightList[2]);
+            if(index==0){
+                tool.firLoad.removeClass(`firLoad firLoad2`).addClass('firLoad');
+                tool.secLoad.removeClass(`secLoad secLoad2`).addClass('secLoad');
+                tool.thrLoad.removeClass(`thrLoad thrLoad2`).addClass('thrLoad');
+            }else{
+                tool.firLoad.removeClass(`firLoad firLoad2`).addClass('firLoad2');
+                tool.secLoad.removeClass(`secLoad secLoad2`).addClass('secLoad2');
+                tool.thrLoad.removeClass(`thrLoad thrLoad2`).addClass('thrLoad2');
+            }
         }
     }
 

@@ -2,7 +2,7 @@ let index = 0, timer;
 
 const list = [{
     type: 'enterprises',
-    id: '3739373',
+    id: '0xcdfc59e2095473d48e58284113...',
     topImg: 'debtTit',
     centerLabel: ['实名<br/>认证', '货物运输<br/>经营许可', '1个<br/>经营场地', '1家<br/>车辆挂靠', '2家贸易<br/>对手方', '4次<br/>授信', '2次<br/>失信', '4次<br/>借贷', '信用评级<br/>B+'],
     numberList: ['9,234,545', '12,507,370', '8,234,588', '456', '123,685', '789', '745,125,444', '4,486'],
@@ -12,31 +12,31 @@ const list = [{
     lableList:['运输经营许可','失信行为','经营场地','车辆挂靠','信用评级'],
     lableName:['交通部','交通部','天津物流园','恒远物流','货车帮征信公司'],
     lableHash:['0xfd83b8b60010b4fb...','0xfd83b8b60010b5fb...','0xfd83b8b60010b6fb...','0xfd83b8b60010b7fb...','0xfd83b8b60010b8fb...'],
-    titleNumber:'32'
+    titleNumber:'32',
 }, {
     type: 'person',
-    id: '3435890',
+        id: '0xa516aac97c75a003b4d5317...',
     topImg: 'carer',
     centerLabel: ['实名<br/>认证', '从业<br/>资质许可', '1家<br/>劳动关系', '5年<br/>从业年限', '危化品运输', '1次<br/>逾期', '1次<br/>危险驾驶', '5次<br/>违章', '信用评级<br/>B-'],
     numberList: ['7,234,431', '14,574,328', '9,234,545', '234,54', '8,234,588', '456', '123,685', '789',],
     rightList: ['5/15', '120,000', '120,000'],
     balance:'50,000',
     rightType:'满帮通余额',
-    lableList:['从业资质','危化品运输','从业年限','劳动关系','逾期'],
+        lableList: ['从业资质', '危化品运输', '劳动关系','从业年限','逾期'],
     lableName:['交通部','交通部','志鸿物流','联合认证','货车帮小贷公司'],
-    lableHash:['0x92220c7e1e8a97b...','0x92220c7e1e8a98b...','0x26d9642cc71c6621...','0x92220c7e1e8a99b...','0x92220c7e1e8a101b...'],
+        lableHash: ['0x92220c7e1e8a97b...','0x92220c7e1e8a100b...','0x92220c7e1e8a98b...','0x92220c7e1e8a99b...','0x92220c7e1e8a101b...'],
     titleNumber:'69'
 }, {
     type: 'car',
-    id: '5676543',
+    id: '0xa5cc9702dbcf5e42fce50ed7924e6132...',
     topImg: 'carList',
     centerLabel: ['已<br/>年审', '已<br/>交保', '行驶证<br/>认证', '危化品<br/>运输', '2次<br/>质押', '2家贸易<br/>对手方', '1次<br/>授信', '1次<br/>借贷', '信用评级<br/>B-'],
     numberList: ['8,234,588', '456', '123,685', '789', '745,125,444', '4,486', '9,234,545', '234,54'],
     balance:'300,000',
     rightType:'车辆评估价',
     lableList:['行驶证认证','危化品运输','车辆年审','车辆保险','质押记录'],
-    lableName:['交通部','交通部','798检测7','平安保险公司','货车帮征信公司'],
-    lableHash:['0x26d9642cc71c6623...','0x26d9642cc71c6624...','0x26d9642cc71c6621...','0x26d9642cc71c6622...','0x26d9642cc71c6625...'],
+        lableName: ['交通部', '交通部', '798检测厂', '平安保险公司','货车帮融资租赁公司'],
+    lableHash:['0x26d9642cc71c66...','0x26d9642cc71c66...','0x26d9642cc71c66...','0x26d9642cc71c66...','0x26d9642cc71c66...'],
     titleNumber:'21'
 }]
 
@@ -63,6 +63,9 @@ function init() {
     tool.lableName = $('.lableName');
     tool.lableHash = $('.lableHash');
     tool.titleNumber = $('#titleNumber');
+    tool.firLoad = $('#firLoad');
+    tool.secLoad = $('#secLoad');
+    tool.thrLoad = $('#thrLoad');
     // tool.planetaryAction();
     polling();
     // <!--获取li每行的高度，动画移动的高度-->
